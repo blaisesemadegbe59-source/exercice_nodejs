@@ -1,0 +1,19 @@
+{
+  "name": "gestionnaire-notes",
+  "version": "1.0.0",
+  "description": "CLI de gestion de notes persistées en JSON",
+  "bin": {
+    "notes": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "link": "npm run build && npm link"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
