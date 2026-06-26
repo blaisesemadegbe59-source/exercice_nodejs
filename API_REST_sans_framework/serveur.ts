@@ -97,9 +97,9 @@ function démarrerServeur(): http.Server {
 const serveur = démarrerServeur();
 
 process.on("SIGINT", () => {
-  console.log("\n🛑 Arrêt du serveur...");
+  console.log("\n Arrêt du serveur...");
   serveur.close(() => {
-    console.log("✅ Serveur arrêté proprement.");
+    console.log(" Serveur arrêté proprement.");
     process.exit(0);
   });
 });

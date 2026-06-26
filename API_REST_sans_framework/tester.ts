@@ -134,4 +134,4 @@ async function tester(): Promise<void> {
   }
 }
 
-tester().catch((e) => console.error("💥 Erreur test :", e));
+tester().catch((e) => console.error(" Erreur test :", e));
